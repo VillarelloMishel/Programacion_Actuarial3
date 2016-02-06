@@ -4,14 +4,16 @@
 #### Programacion_Actuarial3
 
 Primaver 2016
-Dias de la semana
+calificaciones
 
-* Lunes
+* Matematicas basicas 10
 
-* Martes
+* Problemas de las matematicas 10
 
-* Miercoles
-* Jueves
-* Viernes
-* Sabado
-* Domingo
+* conceptos de calculo 10
+* Introduccion a la profesion actuarial 8
+* teoria del interes 1 10
+* teoria de ecuaciones 7
+*  microeconomia 6
+* pramacion actuarial 8
+*  Programacion actuarial 2 9
