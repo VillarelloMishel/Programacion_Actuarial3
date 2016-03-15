@@ -5,10 +5,10 @@ secuencia <- vector("numeric",0)
 for(i in 1:x){
   
   secuencia[i] <- z
-  length(secuencia) <- length(secuencia)
+  length(secuencia) <- length(secuencia)+1
   moneda <- runif(1)
-  if(moneda <=.05){
-    z <- z + .05
+  if(moneda <=.5){
+    z <- z + .5
   } else {
     z <- z - 0.5
   }
@@ -17,3 +17,4 @@ for(i in 1:x){
 secuencia
 plot(secuencia, type = "l")
 }
+########
