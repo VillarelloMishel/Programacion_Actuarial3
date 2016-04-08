@@ -1,3 +1,5 @@
+
+     #----------------- PARTE 1
 mediacontaminante  <- function(directory, pollutant, id = 1:332) {
   data = lapply(id, function(i) read.csv(paste(directory, "/", formatC(i, 
                                                                        width = 3, flag = "0"), ".csv", sep = ""))[[pollutant]])
@@ -6,7 +8,7 @@ mediacontaminante  <- function(directory, pollutant, id = 1:332) {
 }
 mediacontaminante("specdata", "nitrate", 1:23)
 
-
+#----------------Parte 2
 completos <- function(directory, id = 1:332) {
   nobs = numeric()
   for (i in id) {
@@ -19,6 +21,8 @@ completos <- function(directory, id = 1:332) {
 }
 complementos("specdata", 1:10)
 
+
+#-------------------Parte 3
 corr <- function(directory, horizonte=0) {
   
   df = completos(directory)
