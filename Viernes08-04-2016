@@ -6,7 +6,7 @@ mediacontaminante  <- function(directory, pollutant, id = 1:332) {
   
   return(mean(unlist(data), na.rm = TRUE))
 }
-mediacontaminante("specdata", "nitrate", 1:23)
+mediacontaminante("specdata", "sulfate", 111:200)
 
 #----------------Parte 2
 completos <- function(directory, id = 1:332) {
@@ -19,7 +19,7 @@ completos <- function(directory, id = 1:332) {
   }
   return(data.frame(id, nobs))
 }
-complementos("specdata", 1:10)
+complementos("specdata", 60:100)
 
 
 #-------------------Parte 3
@@ -37,6 +37,6 @@ corr <- function(directory, horizonte=0) {
   }
   return(corrr)
 }
-cr <- corr("specdata", 150)
+cr <- corr("specdata", 0)
 head(cr)
 
